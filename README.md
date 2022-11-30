@@ -71,7 +71,7 @@ users = [
 ```
 A composite design pattern with recursive function approach is being tried to be implemented in this application.
 
-###3 Main components
+### 3 Main components
 RoleComponent Interface
 RoleGroup (composite)
 Role (leaf)
@@ -251,7 +251,7 @@ public function getSubordinates($userId, $data)
 
 getSubordinates accepts 2 parameters -> userId and Roledata array from which we need to find the users. The reason to pass the roleData array to the method is - I haven't used database so what I have done is created the object data array by specifying the inputs and passing that object to the getSubordinates as a resource. this method will first try to access to check the userId in the data. it will iterate over data['users'] and if the user is found, it will try to get the roleId for that user. Based on the roleId. Then a check is done to see if the dat has child and if it has child then it will try to get all the users for the roleId from the child.
 
-###Example: 
+### Example: 
 ```
 $response = $role1->getSubordinates(3, $rolesResult);
 ```
