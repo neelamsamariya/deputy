@@ -72,8 +72,11 @@ users = [
 A composite design pattern with recursive function approach is being tried to be implemented in this application.
 
 ### 3 Main components
+
 RoleComponent Interface
+
 RoleGroup (composite)
+
 Role (leaf)
 
 and a user class
