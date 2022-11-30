@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'neelamthakor/deputy',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '43bc84021bf8363654755a1b1b4a4253f075347f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -29,9 +29,9 @@
             'dev_requirement' => true,
         ),
         'neelamthakor/deputy' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '43bc84021bf8363654755a1b1b4a4253f075347f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

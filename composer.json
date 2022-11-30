@@ -6,6 +6,9 @@
             "App\\": "src/"
         }
     },
+    "require": {
+        "php": "^8.1"
+    },
     "authors": [
         {
             "name": "Neelam Thakor"
